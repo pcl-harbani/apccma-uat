@@ -1,0 +1,217 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APCCMA - All Pakistan Cables & Conductors Manufacturers Association</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #f9f9f9 0%, #e6e6e6 100%);
+      background-attachment: fixed;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #ffffffcc;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      backdrop-filter: blur(10px);
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      position: relative;
+    }
+    nav a::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      width: 0;
+      height: 3px;
+      background-color: #888;
+      transition: width 0.3s;
+    }
+    nav a:hover::after {
+      width: 100%;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeIn 1s ease-in;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+      margin-bottom: 2rem;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    h2 {
+      color: #222;
+      position: relative;
+      margin-bottom: 1rem;
+    }
+    h2::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      width: 50px;
+      height: 4px;
+      background-color: #888;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .download-button {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #888;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .download-button:hover {
+      background-color: #666;
+    }
+    ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    a[href^="mailto"] {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a[href^="mailto"]:hover {
+      text-decoration: underline;
+    }
+    .counters {
+      display: flex;
+      justify-content: space-around;
+      margin: 2rem 0;
+      text-align: center;
+    }
+    .counter {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    form.newsletter {
+      max-width: 400px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    form.newsletter input[type="email"] {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form.newsletter button {
+      padding: 0.75rem;
+      background-color: #888;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    form.newsletter button:hover {
+      background-color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#"><img src="APCCMA Logo Final Logo.png" alt="APCCMA Logo"></a>
+    <nav>
+	  <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#executive">Executive Committee</a>
+      <a href="#members">Members</a>
+      <a href="#news">News</a>
+      <a href="#membership">Membership</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+	<section>    
+    <h1 class="display-6 fw-bold">All Pakistan Cables & Conductors Manufacturers Association (APCCMA)</h1>
+    <p class="lead">Voice of the Cable and Conductors Industry in Pakistan</p>
+  </section>
+  <section id="about">
+    <h2>About</h2>
+    <p>All Pakistan Cables and Conductors Manufacturers Association (APCCMA) was incorporated in 2009. APCCMA targets to protect and promote the interest of all persons dealing with Cables & Conductors Manufacturing. Its further objective is to protect and promote the trade and to secure cooperation among all manufacturers of the cable industry for improving working and products in the country.</p>
+    <p>APCCMA represents the sector before federal and provincial governments or other authorities on behalf of the industry, providing assistance, information, and advice to support the promotion of fair market trade and industry practices.</p>
+    <p>As the leading voice of the sector, APCCMA is committed to promoting collaboration, advocating for industry interests, and driving sustainable growth. Its steadfast dedication aligns with Pakistan's economic goals and development ambitions, establishing APCCMA as a vital force for prosperity and success in the Cable and Conductors sector.</p>
+  </section>
+
+  <section id="executive">
+    <h2>Executive Committee</h2>
+    <ul>
+      <li><b>Fahd Kamal Chinoy</b> – CEO – Pakistan Cables Limited</li>
+      <li><b>Kamal Mahmood Amjad Mian</b> – Director – Fast Cables Limited</li>
+      <li><b>Raza Elahi</b> – Director – Steel Complex (Pvt.) Ltd</li>
+    </ul>
+  </section>
+
+  <section id="members">
+    <h2>Members</h2>
+    <a class="download-button" href="APCCMA Members List.xlsx" download>Download Members List</a>
+  </section>
+
+  <section id="news">
+    <h2>News and Events</h2>
+     <ul>
+		<li><a href="APCCMA south regional office letters.pdf" download>New Regional Office</a></li>
+		<li><a href="CTC AOA for 20240414_2533072 CTC.pdf" download>Article of Association</a></li>
+		<li><a href="CTC MOA for 20240414_2533072 CTC.pdf" download>Memorandum of Association</a></li>
+		<li><a href="Incorporation Letter for 20240414_2533072.pdf" download>Certificate of incorporation</a></li>
+		
+	</ul>
+  </section>
+
+  <section id="membership">
+    <h2>Membership</h2>
+    <a class="download-button" href="Membership-Form.docx" download>Download Membership Form</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>All Pakistan Cables and Conductors Manufacturers Association</strong></p>
+    <p>North Office: 194-Y COMMERCIAL PHASE 3 DHA LAHORE</p>
+    <p>South Office: B-21 SITE, Karachi</p>
+    <p>Email: <a href="mailto:info@apccma.com">info@apccma.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 APCCMA. All rights reserved.
+  </footer>
+
+
+</body>
+</html>
